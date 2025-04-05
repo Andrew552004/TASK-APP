@@ -1,0 +1,36 @@
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+  padding: 10px;
+  background-color: #e5dcdc;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.taskText {
+  flex: 1;
+  word-break: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px; /* Espaciado entre texto y botón */
+}
+
+.deleteBtn:hover {
+  background-color: darkred;
+}
